@@ -64,10 +64,10 @@
         default_layer {
             label = "OONISHI";
             bindings = <
-&kp Q      &kp L         &kp E       &kp MINUS    &kp SLASH                              &kp F      &kp W  &kp R      &kp Y      &kp P
-&kp E      &kp I         &kp A       &kp O        &kp M                                  &kp K      &kp T  &kp N      &kp S      &kp H
-&kp Z      &kp X         &kp C       &kp V        &kp J                                  &kp G      &kp D  &mkp LCLK  &mkp RCLK  &kp B
-&kp LCTRL  &kp LEFT_ALT  &kp ESCAPE  &lt 1 SPACE  &lt 3 SPACE  &lt 2 LA(TAB)  &kp ENTER  &kp ENTER                               &kp BACKSPACE
+&kp Q      &kp L         &kp E         &kp MINUS    &kp SLASH                              &kp F      &kp W  &kp R      &kp Y      &kp P
+&kp E      &kp I         &kp A         &kp O        &kp M                                  &kp K      &kp T  &kp N      &kp S      &kp H
+&kp Z      &kp X         &kp C         &kp V        &kp J                                  &kp G      &kp D  &mkp LCLK  &mkp RCLK  &kp B
+&kp LCTRL  &kp LEFT_ALT  &lt 4 ESCAPE  &lt 1 SPACE  &lt 3 SPACE  &lt 2 LA(TAB)  &kp ENTER  &kp ENTER                               &kp BACKSPACE
             >;
         };
 
