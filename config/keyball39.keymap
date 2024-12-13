@@ -55,6 +55,13 @@
             bindings = <&kp LC(SPACE)>;
             label = "HIRAGANA";
         };
+
+        dekara_split: dekara_split {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp RCLK &kp L>;
+            label = "DEKARA_SPLIT";
+        };
     };
 
     keymap {
@@ -93,10 +100,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&none      &none      &none      &none      &none                      &none   &kp F7  &kp F8  &kp F9  &kp F10
-&none      &none      &kp LC(A)  &none      &none                      &none   &kp F4  &kp F5  &kp F6  &kp F11
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)                  &none   &kp F1  &kp F2  &kp F3  &kp F12
-&trans     &trans     &trans     &trans     &trans     &trans  &trans  &trans                          &kp DELETE
+&none      &none      &dekara_split  &none      &none                      &none   &kp F7  &kp F8  &kp F9  &kp F10
+&none      &none      &kp LC(A)      &none      &none                      &none   &kp F4  &kp F5  &kp F6  &kp F11
+&kp LC(Z)  &kp LC(X)  &kp LC(C)      &kp LC(V)  &kp LC(Y)                  &none   &kp F1  &kp F2  &kp F3  &kp F12
+&trans     &trans     &trans         &trans     &trans     &trans  &trans  &trans                          &kp DELETE
             >;
         };
 
