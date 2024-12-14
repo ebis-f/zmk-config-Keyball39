@@ -36,7 +36,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: 'Alt+ $$mdi:keyboard-tab$$', h: SYM}
-  - LANGUAGE 1
+  - RIGHT WIN
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUM:
@@ -76,7 +76,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&pwname'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
@@ -116,8 +116,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - '&pwname'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgUp
+  - PgDn
   - $$mdi:backspace-reverse-outline$$
   FUN:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -156,8 +156,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+ KP MINUS
+  - Ctl+ KP PLUS
   - $$mdi:backspace-reverse-outline$$
   MOUSE:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -230,8 +230,8 @@ layers:
   - F2
   - F3
   - {t: '$$mdi:transfer$$', type: trans}
-  - LANG ZENKAKUHANKAKU
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LANGUAGE 1
+  - LANGUAGE 2
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
