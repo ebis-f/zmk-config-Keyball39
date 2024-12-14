@@ -150,7 +150,7 @@ layers:
   - F2
   - F3
   - F12
-  - LANGUAGE 5
+  - LANG ZENKAKUHANKAKU
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
