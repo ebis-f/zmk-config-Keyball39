@@ -150,7 +150,7 @@ layers:
   - F2
   - F3
   - F12
-  - LANG HIRAGANA
+  - '&Hiragana'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
