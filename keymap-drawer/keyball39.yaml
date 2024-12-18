@@ -33,7 +33,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: FUN}
-  - {t: '$$mdi:keyboard-space$$', h: SYM}
+  - {t: 'Sft+$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: 'Alt+$$mdi:keyboard-tab$$', h: NUM}
   - {t: RIGHT WIN, h: MOUSE}
