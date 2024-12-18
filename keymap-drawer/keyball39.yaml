@@ -32,7 +32,7 @@ layers:
   - B
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: B, h: FUN}
+  - {t: '$$mdi:keyboard-esc$$', h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: 'Alt+$$mdi:keyboard-tab$$', h: NUM}
