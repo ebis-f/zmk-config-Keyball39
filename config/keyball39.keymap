@@ -106,7 +106,7 @@
             >;
         };
 
-        function_layer {
+        macro_layer {
             label = "FUN";
             bindings = <
 &none      &none      &dekara_split  &none      &none                               &none            &kp F7  &kp F8  &kp F9  &kp F10
