@@ -84,7 +84,7 @@ layers:
   - '*'
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
-  - {t: \, s: '|'}
+  - \
   - '@'
   - {t: '''', s: '"'}
   - (
