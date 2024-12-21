@@ -137,7 +137,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F5
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F6
   - F11
   - Ctl+Z
