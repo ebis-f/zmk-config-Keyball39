@@ -32,7 +32,7 @@ layers:
   - {t: B, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: FUN}
+  - $$mdi:keyboard-esc$$
   - {t: 'Sft+$$mdi:keyboard-space$$', h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: 'Alt+$$mdi:keyboard-tab$$', h: NUM}
@@ -152,7 +152,7 @@ layers:
   - F12
   - '&Hiragana'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
