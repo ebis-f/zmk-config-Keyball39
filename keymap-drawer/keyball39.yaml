@@ -35,7 +35,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:keyboard-space$$', h: FUN}
   - {t: 'Sft+$$mdi:keyboard-space$$', h: SCROLL}
-  - {t: 'Alt+$$mdi:keyboard-tab$$', h: NUM}
+  - {t: '$$mdi:keyboard-tab$$', h: NUM}
   - {t: RIGHT WIN, h: SYM}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
