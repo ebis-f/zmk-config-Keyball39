@@ -12,10 +12,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -107,10 +108,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&none   &none           &none         &none      &none                    &none           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&none   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT  &none                    &none           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
-&none   &none           &kp DOWN      &none      &none                    &kp UNDERSCORE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON
-&trans  &trans          &trans        &trans     &trans  &trans  &P_NAME  &trans                                                    &none
+&none   &none           &none         &none      &none                       &none   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&none   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT  &kp COLON                   &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
+&none   &none           &kp DOWN      &none      &kp UNDER                   &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
+&trans  &trans          &trans        &trans     &trans     &trans  &P_NAME  &trans                                            &none
             >;
         };
 
