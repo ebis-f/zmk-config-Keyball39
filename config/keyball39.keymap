@@ -118,10 +118,10 @@
         Symbol_layer {
             label = "FUN";
             bindings = <
-&none   &none             &kp LCTRL          &kp EQUAL      &kp TILDE                         &kp AT_SIGN     &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none   &kp BACKSLASH     &kp PIPE           &kp COLON      &kp SEMICOLON                     &kp COMMA       &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp PERIOD
-&none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN                  &kp UNDERSCORE  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp SLASH
-&trans  &trans            &trans             &trans         &trans            &trans  &trans  &trans                                                                        &kp DEL
+&kp CARET  &kp PLUS          &kp MINUS          &kp EQUAL      &kp TILDE                         &kp AT_SIGN     &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none      &kp BACKSLASH     &kp PIPE           &kp COLON      &kp SEMICOLON                     &kp COMMA       &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp PERIOD
+&none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN                  &kp UNDERSCORE  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp SLASH
+&trans     &trans            &trans             &trans         &trans            &trans  &trans  &trans                                                                        &kp DEL
             >;
         };
 
