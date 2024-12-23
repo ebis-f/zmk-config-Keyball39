@@ -13,10 +13,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -110,7 +111,7 @@
             bindings = <
 &none   &none           &none         &none      &none                       &none   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &none   &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT  &kp COLON                   &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
-&none   &none           &kp DOWN      &none      &kp UNDER                   &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none
+&none   &none           &kp DOWN      &none      &kp UNDER                   &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SQT
 &trans  &trans          &trans        &trans     &trans     &trans  &P_NAME  &trans                                            &none
             >;
         };
@@ -128,10 +129,10 @@
         Symbol_layer {
             label = "FUN";
             bindings = <
-&kp CARET  &kp PLUS          &kp MINUS          &kp EQUAL      &kp TILDE                         &kp AT_SIGN     &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none      &kp BACKSLASH     &kp PIPE           &kp COLON      &kp SEMICOLON                     &kp COMMA       &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp PERIOD
-&none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN                  &kp UNDERSCORE  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp SLASH
-&trans     &trans            &trans             &trans         &trans            &trans  &trans  &trans                                                                        &kp DEL
+&kp CARET  &kp PLUS          &kp MINUS          &kp EQUAL      &kp TILDE                         &kp SQT             &kp LS(GRAVE)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none      &kp BACKSLASH     &kp PIPE           &kp COLON      &kp SEMICOLON                     &kp COMMA           &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp PERIOD
+&none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN                  &kp LS(UNDERSCORE)  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp SLASH
+&trans     &trans            &trans             &trans         &trans            &trans  &trans  &trans                                                                            &kp DEL
             >;
         };
 
