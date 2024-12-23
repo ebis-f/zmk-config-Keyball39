@@ -80,6 +80,13 @@
             bindings = <&kp LANGUAGE_2 &kp LEFT_BRACKET &kp SPACE &kp SEMICOLON &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp RIGHT_BRACKET>;
             label = "DEKARA_KARARUBI";
         };
+
+        dekara_lyric: dekara_lyric {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LC(V) &kp LC(A) &kp HOME>;
+            label = "DEKARA_LYRIC";
+        };
     };
 
     keymap {
@@ -138,10 +145,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp ESCAPE  &kp LC(W)  &dekara_split  &trans            &trans                              &trans            &trans    &trans     &trans     &trans
-&kp LC(A)   &trans     &none          &dekara_kararubi  &trans                              &trans            &mkp MB5  &trans     &trans     &trans
-&kp LC(Z)   &kp LC(X)  &kp LC(C)      &kp LC(V)         &kp LC(Y)                           &trans            &mkp MB4  &mkp LCLK  &mkp RCLK  &trans
-&trans      &trans     &trans         &trans            &trans     &trans  &kp LC(KP_PLUS)  &kp LC(KP_MINUS)                                  &trans
+&kp ESCAPE      &kp LC(W)       &dekara_split  &trans            &trans                              &trans            &trans    &trans     &trans     &trans
+&kp LC(A)       &trans          &dekara_lyric  &dekara_kararubi  &trans                              &trans            &mkp MB5  &trans     &trans     &trans
+&kp LC(Z)       &kp LC(X)       &kp LC(C)      &kp LC(V)         &kp LC(Y)                           &trans            &mkp MB4  &mkp LCLK  &mkp RCLK  &trans
+&kp LANGUAGE_1  &kp LANGUAGE_2  &trans         &trans            &trans     &trans  &kp LC(KP_PLUS)  &kp LC(KP_MINUS)                                  &trans
             >;
         };
 
