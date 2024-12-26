@@ -27,8 +27,8 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: <}
-  - .
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
