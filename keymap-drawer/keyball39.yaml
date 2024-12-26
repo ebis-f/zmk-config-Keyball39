@@ -32,11 +32,11 @@ layers:
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-esc$$
+  - LEFT WIN
   - {t: '$$mdi:keyboard-space$$', h: FUN}
   - {t: 'Sft+$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:keyboard-tab$$', h: NUM}
-  - {t: RIGHT WIN, h: SYM}
+  - {t: Gui+Sft+S, h: SYM}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUM:
@@ -78,7 +78,7 @@ layers:
   - {type: held}
   - '&P_NAME'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   SYM:
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   FUN:
   - ^
   - +
@@ -130,7 +130,7 @@ layers:
   - (
   - )
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
   - {t: \, s: '|'}
   - '|'
   - ':'
@@ -145,7 +145,7 @@ layers:
   - {t: ']', s: '}'}
   - <
   - '>'
-  - Sft+_
+  - _
   - '!'
   - '"'
   - '#'
@@ -208,7 +208,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+A
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -217,9 +217,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:arrow-right-bold$$', type: held}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
