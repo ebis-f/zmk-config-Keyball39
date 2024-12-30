@@ -160,7 +160,7 @@
 &kp ESCAPE  &kp LC(W)  &dekara_split  &trans            &trans                        &trans          &trans    &trans     &kp UP_ARROW    &trans
 &kp LC(A)   &none      &dekara_lyric  &dekara_kararubi  &trans                        &trans          &mkp MB5  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT
 &kp LC(Z)   &kp LC(X)  &kp LC(C)      &kp LC(V)         &kp LC(Y)                     &kp LANGUAGE_5  &mkp MB4  &mkp LCLK  &mkp RCLK       &trans
-&none       &none      &none          &trans            &trans     &trans  &kp LANG2  &kp LANG1                                            &kp DEL
+&none       &none      &none          &none             &trans     &trans  &kp LANG2  &kp LANG1                                            &kp DEL
             >;
         };
 
