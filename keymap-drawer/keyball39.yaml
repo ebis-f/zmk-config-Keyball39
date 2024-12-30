@@ -230,14 +230,14 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - LANGUAGE 1
-  - LANGUAGE 2
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INT MUHENKAN
-  - INT HENKAN
+  - LANG2
+  - LANG1
   - $$mdi:backspace-reverse-outline$$
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
