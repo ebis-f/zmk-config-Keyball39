@@ -156,8 +156,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+KP PLUS
+  - Ctl+KP MINUS
   - $$mdi:backspace-reverse-outline$$
   MOUSE:
   - {t: '1', s: '!'}
@@ -232,12 +232,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - LANGUAGE 1
   - LANGUAGE 2
-  - LANG ZENKAKUHANKAKU
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+KP PLUS
-  - Ctl+KP MINUS
+  - INT MUHENKAN
+  - INT HENKAN
   - $$mdi:backspace-reverse-outline$$
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
