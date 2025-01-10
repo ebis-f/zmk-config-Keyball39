@@ -129,7 +129,7 @@
             label = "NUM";
             bindings = <
 &none   &none     &none           &kp F9     &kp F10                           &kp AT_SIGN    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&none   &kp LEFT  &kp UP_ARROW    &kp RIGHT  &kp COLON                         &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON
+&none   &kp LEFT  &kp UP_ARROW    &kp RIGHT  &kp COLON                         &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
 &none   &none     &kp DOWN_ARROW  &none      &kp UNDERSCORE                    &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
 &trans  &trans    &trans          &trans     &trans          &trans  &pw_name  &trans                                                   &kp UNDER
             >;
