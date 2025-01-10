@@ -225,19 +225,19 @@ layers:
   - Ctl+C
   - Ctl+V
   - Ctl+Y
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LANG ZENKAKUHANKAKU
   - '&mkp MB4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LANGUAGE 2
-  - LANGUAGE 1
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LANGUAGE 2
+  - LANG1
   - $$mdi:backspace-reverse-outline$$
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
