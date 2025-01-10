@@ -225,7 +225,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - Ctl+Y
-  - LANG ZENKAKUHANKAKU
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
@@ -237,7 +237,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - LANGUAGE 2
-  - LANG1
+  - {t: LANGUAGE 1, h: LANGUAGE 2}
   - $$mdi:backspace-reverse-outline$$
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
