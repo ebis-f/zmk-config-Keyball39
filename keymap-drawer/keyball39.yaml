@@ -19,7 +19,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: SCROLL, s: _}
+  - {t: '-', h: EDIT, s: _}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
@@ -29,16 +29,16 @@ layers:
   - M
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: /, s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - {t: 'Sft+$$mdi:keyboard-space$$', h: SCROLL}
+  - {t: 'Sft+$$mdi:keyboard-space$$', h: EDIT}
   - {t: '$$mdi:keyboard-tab$$', h: NUM}
   - Sft+Gui+S
   - {t: '$$mdi:keyboard-return$$', h: FUN}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -61,9 +61,9 @@ layers:
   - '6'
   - ':'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _
   - {t: \, s: '|'}
   - '1'
@@ -78,10 +78,10 @@ layers:
   - {type: held}
   - '&pw_name'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - _
   SYM:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - +
+  - '~'
   - {t: '`', s: '~'}
   - ^
   - '|'
@@ -95,17 +95,17 @@ layers:
   - '>'
   - '{'
   - '}'
-  - {t: '-', s: _}
+  - {t: ',', s: <}
   - $
   - '%'
   - '&'
-  - '~'
+  - .
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '*'
-  - +
   - _
+  - '?'
   - '!'
   - '"'
   - '#'
@@ -131,9 +131,9 @@ layers:
   - F9
   - F10
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F4
@@ -142,7 +142,7 @@ layers:
   - F11
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -199,27 +199,27 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - FUN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  SCROLL:
+  EDIT:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - '&dekara_clip'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F6
+  - F7
+  - '&dekara_enctab'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&dekara_kasicut'
+  - '&dekara_kasihari'
+  - '&dekara_kararubi'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:arrow-right-bold$$', type: held}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -227,11 +227,11 @@ layers:
   - Ctl+Y
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - LANGUAGE 2
+  - LANGUAGE 1
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
