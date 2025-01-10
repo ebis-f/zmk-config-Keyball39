@@ -59,7 +59,7 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - ':'
+  - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
