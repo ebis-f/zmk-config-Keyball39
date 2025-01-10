@@ -11,10 +11,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -167,10 +168,10 @@
         edit_layer {
             label = "EDIT";
             bindings = <
-&kp ESCAPE      &trans           &dekara_clip      &trans            &trans                     &kp F6  &kp F7    &dekara_enctab  &trans        &trans
-&trans          &dekara_kasicut  &dekara_kasihari  &dekara_kararubi  &trans                     &trans  &mkp MB5  &kp LEFT        &kp UP_ARROW  &kp RIGHT
-&kp LC(Z)       &kp LC(X)        &kp LC(C)         &kp LC(V)         &kp LC(Y)                  &trans  &mkp MB4  &none           &kp DOWN      &none
-&kp LANGUAGE_2  &kp LANGUAGE_1   &trans            &trans            &trans     &trans  &trans  &trans                                          &kp DEL
+&kp ESCAPE      &trans           &dekara_clip      &trans            &dekara_seiretu                  &kp F6  &kp F7    &dekara_enctab  &trans        &trans
+&trans          &dekara_kasicut  &dekara_kasihari  &dekara_kararubi  &trans                           &trans  &mkp MB5  &kp LEFT        &kp UP_ARROW  &kp RIGHT
+&kp LC(Z)       &kp LC(X)        &kp LC(C)         &kp LC(V)         &kp LC(Y)                        &trans  &mkp MB4  &none           &kp DOWN      &none
+&kp LANGUAGE_2  &kp LANGUAGE_1   &trans            &trans            &trans           &trans  &trans  &trans                                          &kp DEL
             >;
         };
 
