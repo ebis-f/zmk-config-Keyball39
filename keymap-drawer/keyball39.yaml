@@ -210,7 +210,7 @@ layers:
   - '&dekara_enctab'
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+P
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+A
   - '&dekara_kasicut'
   - '&dekara_kasihari'
   - '&dekara_kararubi'
@@ -236,7 +236,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LANGUAGE 2
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: LANGUAGE 1, h: LANGUAGE 2}
   - $$mdi:backspace-reverse-outline$$
   SNIPE:
