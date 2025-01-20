@@ -36,7 +36,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: 'Sft+$$mdi:keyboard-space$$', h: EDIT}
   - {t: '$$mdi:keyboard-tab$$', h: NUM}
-  - Sft+Gui+S
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUM:
@@ -236,7 +236,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+Sft+S
   - {t: LANGUAGE 1, h: LANGUAGE 2}
   - $$mdi:backspace-reverse-outline$$
   SNIPE:
