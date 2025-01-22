@@ -18,10 +18,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -141,10 +142,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp F10                      &kp COLON      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&none            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(F)                    &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
-&kp LA(LS(F12))  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &map_rm                      &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&trans           &trans           &trans           &trans           &trans     &trans  &pw_name  &trans                                                   &kp UNDER
+&kp N0           &kp N7        &kp N8        &kp N9        &kp F10                      &kp COLON      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&none            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(F)                    &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
+&kp LA(LS(F12))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &map_rm                      &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&trans           &trans        &trans        &trans        &trans     &trans  &pw_name  &trans                                                   &kp UNDER
             >;
         };
 
