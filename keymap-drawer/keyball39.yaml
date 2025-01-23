@@ -40,11 +40,11 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUM:
-  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - F10
+  - {t: '0', s: )}
   - ':'
   - '7'
   - '8'
@@ -70,14 +70,14 @@ layers:
   - '2'
   - '3'
   - {t: /, s: '?'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&pw_name'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F10
   - _
   SYM:
   - +
