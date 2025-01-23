@@ -40,37 +40,37 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUM:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F9
+  - {t: '0', s: )}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - F10
-  - '@'
+  - ':'
   - '7'
   - '8'
   - '9'
   - '0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - ':'
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
+  - Sft+F
   - {t: '-', s: _}
   - '4'
   - {t: '5', s: '%'}
   - '6'
   - .
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - _
+  - Alt+Sft+F12
+  - '1'
+  - '2'
+  - '3'
+  - '&map_rm'
   - {t: \, s: '|'}
   - '1'
   - '2'
   - '3'
   - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
