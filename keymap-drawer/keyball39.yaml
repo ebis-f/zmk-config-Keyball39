@@ -50,7 +50,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+Sft+F12
   - '4'
   - {t: '5', s: '%'}
   - '6'
@@ -60,7 +60,7 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - .
-  - Alt+Sft+F12
+  - Ctl+Z
   - '1'
   - '2'
   - '3'
