@@ -76,9 +76,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F10
   - _
+  - F10
+  - {t: '$$mdi:backspace$$', type: backspace}
   SYM:
   - +
   - '{'
