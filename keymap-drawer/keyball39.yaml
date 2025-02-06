@@ -209,7 +209,7 @@ layers:
   - F7
   - '&dekara_enctab'
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+HOME
+  - HOME
   - Ctl+A
   - '&dekara_kasicut'
   - '&dekara_kasihari'
