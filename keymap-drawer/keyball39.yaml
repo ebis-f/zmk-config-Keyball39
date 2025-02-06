@@ -225,7 +225,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - Ctl+Y
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+$$mdi:keyboard-tab$$
   - '&mkp MB4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
