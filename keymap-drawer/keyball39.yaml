@@ -25,7 +25,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:apple-keyboard-option$$', h: N}
+  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - M
   - '&mkp MB1'
   - '&mkp MB2'
