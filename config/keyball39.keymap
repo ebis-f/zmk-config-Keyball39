@@ -34,10 +34,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -177,10 +178,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&bt BT_CLR    &none     &none         &none         &none                   &none   &kp F7  &kp F8  &kp F9  &kp F10
-&bt BT_SEL 0  &kp LEFT  &kp UP_ARROW  &kp UP_ARROW  &none                   &none   &kp F4  &kp F5  &kp F6  &kp F11
-&bt BT_SEL 1  &none     &kp DOWN      &none         &none                   &none   &kp F1  &kp F2  &kp F3  &kp F12
-&bt BT_SEL 2  &trans    &trans        &trans        &trans  &trans  &trans  &trans                          &trans
+&bt BT_CLR    &none         &none         &none          &none                   &none   &kp F7  &kp F8  &kp F9  &kp F10
+&bt BT_SEL 0  &kp LS(LEFT)  &kp UP_ARROW  &kp LS(RIGHT)  &none                   &none   &kp F4  &kp F5  &kp F6  &kp F11
+&bt BT_SEL 1  &none         &kp DOWN      &none          &none                   &none   &kp F1  &kp F2  &kp F3  &kp F12
+&bt BT_SEL 2  &trans        &trans        &trans         &trans  &trans  &trans  &trans                          &trans
             >;
         };
 
