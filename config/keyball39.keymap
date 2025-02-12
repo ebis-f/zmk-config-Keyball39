@@ -178,10 +178,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&bt BT_CLR    &none         &none         &none          &none                   &none   &kp F7  &kp F8  &kp F9  &kp F10
-&bt BT_SEL 0  &kp LS(LEFT)  &kp UP_ARROW  &kp LS(RIGHT)  &none                   &none   &kp F4  &kp F5  &kp F6  &kp F11
-&bt BT_SEL 1  &none         &kp DOWN      &none          &none                   &none   &kp F1  &kp F2  &kp F3  &kp F12
-&bt BT_SEL 2  &trans        &trans        &trans         &trans  &trans  &trans  &trans                          &trans
+&bt BT_CLR    &kp F7  &kp F8  &kp F9  &kp F10                  &none   &none  &none         &kp LS(UP_ARROW)  &none
+&bt BT_SEL 0  &kp F4  &kp F5  &kp F6  &kp F11                  &none   &none  &kp LS(LEFT)  &kp LS(UP_ARROW)  &kp LS(RIGHT)
+&bt BT_SEL 1  &kp F1  &kp F2  &kp F3  &kp F12                  &none   &none  &none         &kp RS(DOWN)      &none
+&bt BT_SEL 2  &trans  &trans  &trans  &trans   &trans  &trans  &trans                                         &trans
             >;
         };
 
@@ -198,7 +198,7 @@
         edit_layer {
             label = "EDIT";
             bindings = <
-&kp ESCAPE  &trans           &dekara_clip      &trans            &dekara_seiretu                         &kp F6                     &kp F7    &dekara_enctab  &trans        &kp HOME
+&kp ESCAPE  &trans           &dekara_clip      &trans            &dekara_seiretu                         &kp F6                     &kp F7    &dekara_enctab  &kp UP_ARROW  &kp HOME
 &kp LC(A)   &dekara_kasicut  &dekara_kasihari  &dekara_kararubi  &trans                                  &trans                     &mkp MB5  &kp LEFT        &kp UP_ARROW  &kp RIGHT
 &kp LC(Z)   &kp LC(X)        &kp LC(C)         &kp LC(V)         &kp LC(Y)                               &none                      &mkp MB4  &none           &kp DOWN      &kp END
 &kp LA(F4)  &none            &trans            &trans            &trans           &trans  &kp LG(LS(S))  &mt LANGUAGE_2 LANGUAGE_1                                          &kp DEL
